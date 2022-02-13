@@ -1,0 +1,97 @@
+body {
+  display: contents;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* box 1 */
+.nav {
+  float: right;
+  margin: 15px;
+}
+
+.nav a {
+  padding-right: 15px;
+  color: black;
+}
+
+/* box 2 */
+.main {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.inputbox {
+  width: 561px;
+  height: 44px;
+  border-radius: 24px;
+  border: 1px solid lightgray;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.search-icon {
+  position: relative;
+  left: 40px;
+  color: gray;
+}
+
+.mic-icon {
+  position: relative;
+  right: 40px;
+  color: gray;
+}
+
+.button {
+  margin: 30px;
+}
+
+.search-btn {
+  width: 123px;
+  height: 36px;
+  border: none;
+}
+
+.search-btn:hover {
+  border: 1px solid lightgray;
+}
+
+.language a {
+  padding-right: 15px;
+}
+
+/* box 3 */
+.footer {
+  background-color: rgb(238, 238, 238);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: gray;
+}
+
+.footer a {
+  color: gray;
+}
+
+.footer-firstline {
+  padding: 20px 30px;
+}
+
+.footer-secondline {
+  padding: 20px 30px;
+  border-top: 1px solid rgb(189, 189, 189);
+}
+
+.footer-secondline a {
+  padding-right: 15px;
+}
+
+.footer-privacy {
+  float: right;
+}
